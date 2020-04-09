@@ -1,0 +1,5 @@
+P= int(input("Principal"))
+R=int(input("Rate"))
+T=int(input("Time"))
+compound_interest=P*pow((1+R/100),T)
+print(compound_interest)
